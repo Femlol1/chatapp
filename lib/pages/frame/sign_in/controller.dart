@@ -47,6 +47,7 @@ class SignInController extends GetxController {
   }
 
   aysncPostAllData() {
+    print("...let's go to messsage page...");
     Get.offAllNamed(AppRoutes.Message);
   }
 }
