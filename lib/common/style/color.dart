@@ -7,7 +7,7 @@ class AppColor {
   /// 主要背景颜色
   // static const Color primaryBackground = Color(0xFF5C78FF);
 
-  /// 主要文本颜色
+  /// primary colors
   static const Color primaryText = Color(0xFF333333);
 
   /// 次要文本颜色
