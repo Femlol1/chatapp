@@ -1,5 +1,5 @@
-import 'package:chatty/common/routes/routes.dart';
-import 'package:chatty/common/store/store.dart';
+import 'package:chatify/common/routes/routes.dart';
+import 'package:chatify/common/store/store.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

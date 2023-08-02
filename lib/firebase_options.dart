@@ -51,7 +51,7 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions android = FirebaseOptions(
     apiKey: 'AIzaSyBiobYUU-vRQiM151nxQqg_MJxHLP9BmbU',
-    appId: '1:7076195563:android:0ed8cbd112eabb1bcb62ae',
+    appId: '1:7076195563:android:1142efff7817d67fcb62ae',
     messagingSenderId: '7076195563',
     projectId: 'flutter-video-audio-chat-1c489',
     storageBucket: 'flutter-video-audio-chat-1c489.appspot.com',
@@ -59,11 +59,12 @@ class DefaultFirebaseOptions {
 
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyAVEG2S8xDa0sJTARqaQmuWpmHH3oxm80A',
-    appId: '1:7076195563:ios:e41b0e9f6c84284dcb62ae',
+    appId: '1:7076195563:ios:cab5fa62b05a3a00cb62ae',
     messagingSenderId: '7076195563',
     projectId: 'flutter-video-audio-chat-1c489',
     storageBucket: 'flutter-video-audio-chat-1c489.appspot.com',
-    iosClientId: '7076195563-cnsssnkopj8vee842neepjgr8r9c02p4.apps.googleusercontent.com',
-    iosBundleId: 'com.dbestech.chatty',
+    androidClientId: '7076195563-6tdh24g83u8sc6j1abluo4mru1neo3v5.apps.googleusercontent.com',
+    iosClientId: '7076195563-ri2aitvpai0997rm22d8rcbdufe3ota2.apps.googleusercontent.com',
+    iosBundleId: 'com.femi.chatify',
   );
 }

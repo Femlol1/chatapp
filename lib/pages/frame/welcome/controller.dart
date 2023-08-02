@@ -1,10 +1,10 @@
-import 'package:chatty/common/routes/names.dart';
-import 'package:chatty/pages/frame/welcome/state.dart';
+import 'package:chatify/common/routes/names.dart';
+import 'package:chatify/pages/frame/welcome/state.dart';
 import 'package:get/get.dart';
 
 class WelcomeController extends GetxController {
   WelcomeController();
-  final title = "Chatty .";
+  final title = "chatify .";
   final state = WelcomeState();
 
   @override

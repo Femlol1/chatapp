@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:chatty/common/services/services.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:chatify/common/services/services.dart';
+import 'package:chatify/common/values/values.dart';
 import 'package:get/get.dart';
 import 'package:package_info/package_info.dart';
 

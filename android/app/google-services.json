@@ -7,14 +7,14 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:7076195563:android:0ed8cbd112eabb1bcb62ae",
+        "mobilesdk_app_id": "1:7076195563:android:1142efff7817d67fcb62ae",
         "android_client_info": {
-          "package_name": "com.dbestech.chatty"
+          "package_name": "com.femi.chatify"
         }
       },
       "oauth_client": [
         {
-          "client_id": "7076195563-5g4o9etn417id7nbuuodi92lbsc21giq.apps.googleusercontent.com",
+          "client_id": "7076195563-c709356dqvttc8p4vb64o2cq8ech1fov.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
@@ -29,6 +29,13 @@
             {
               "client_id": "7076195563-5g4o9etn417id7nbuuodi92lbsc21giq.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "7076195563-772e8ub2ts1dmbm8o7nehsiuo3ssnm2i.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.femi.chatty"
+              }
             }
           ]
         }

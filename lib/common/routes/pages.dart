@@ -1,7 +1,7 @@
-import 'package:chatty/common/middlewares/router_auth.dart';
-import 'package:chatty/pages/frame/sign_in/index.dart';
-import 'package:chatty/pages/frame/welcome/index.dart';
-import 'package:chatty/pages/message/index.dart';
+import 'package:chatify/common/middlewares/router_auth.dart';
+import 'package:chatify/pages/frame/sign_in/index.dart';
+import 'package:chatify/pages/frame/welcome/index.dart';
+import 'package:chatify/pages/message/index.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 

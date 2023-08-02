@@ -1,4 +1,4 @@
-import 'package:chatty/pages/message/state.dart';
+import 'package:chatify/pages/message/state.dart';
 import 'package:get/get.dart';
 
 class MessageController extends GetxController {

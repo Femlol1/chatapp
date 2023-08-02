@@ -1,9 +1,9 @@
 import 'dart:convert';
 
-import 'package:chatty/common/entities/entities.dart';
-import 'package:chatty/common/routes/names.dart';
-import 'package:chatty/common/services/services.dart';
-import 'package:chatty/common/values/values.dart';
+import 'package:chatify/common/entities/entities.dart';
+import 'package:chatify/common/routes/names.dart';
+import 'package:chatify/common/services/services.dart';
+import 'package:chatify/common/values/values.dart';
 import 'package:get/get.dart';
 
 class UserStore extends GetxController {

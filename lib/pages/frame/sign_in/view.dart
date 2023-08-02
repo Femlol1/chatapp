@@ -1,18 +1,18 @@
-import 'package:chatty/pages/frame/welcome/index.dart';
+import 'package:chatify/pages/frame/sign_in/controller.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
 
 import '../../../common/values/colors.dart';
 
-class SignInPage extends GetView<WelcomeController> {
+class SignInPage extends GetView<SignInController> {
   const SignInPage({super.key});
 
   Widget _buildLogo() {
     return Container(
       margin: EdgeInsets.only(top: 100.h, bottom: 80.h),
       child: Text(
-        "Chatty .",
+        "chatify .",
         textAlign: TextAlign.center,
         style: TextStyle(
             color: AppColors.primaryText,
@@ -63,7 +63,8 @@ class SignInPage extends GetView<WelcomeController> {
         ),
       ),
       onTap: () {
-        print("...Sign up from third party ${loginType}...");
+        //print("...Sign up from third party ${loginType}...");
+        controller.handleSignIn("google");
       },
     );
   }
